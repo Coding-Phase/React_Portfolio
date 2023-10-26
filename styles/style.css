@@ -1,9 +1,9 @@
 :root {
 	--dark-clr: #070a13; /* #020617 */
 	--light-clr: #f1f5f9;
-	--cle-slate-400: #94a3b8;
-	--cle-slate-600: #475569;
-	--cle-slate-800: #1e293b;
+	--clr-slate-400: #94a3b8;
+	--clr-slate-600: #475569;
+	--clr-slate-800: #1e293b;
 	--clr-red: #e11d48;
 	--clr-indigo: #4f46e5;
 
@@ -11,12 +11,29 @@
 	/* indigo rgb = rgb(79, 70, 229)*/
 
 	/* Screen Widths */
-	--xxl: 1536px;
-	--xl: 1280px;
-	--lg: 1024px;
-	--md: 768px;
-	--sm: 640px;
 	--xs: 475px;
+	--sm: 640px;
+	--md: 768px;
+	--lg: 1024px;
+	--xl: 1280px;
+	--xxl: 1536px;
+
+	/* sizes */
+	--size-xxs: 0.5rem;
+	--size-xs: 0.75rem;
+	--size-sm: 0.875rem;
+	--size-base: 1rem;
+	--size-lg: 1.125rem;
+	--size-xl: 1.25rem;
+	--size-2xl: 1.5rem;
+	--size-3xl: 1.875rem;
+	--size-4xl: 2.25rem;
+	--size-5xl: 3rem;
+	--size-6xl: 3.75rem;
+	--size-7xl: 4.5rem;
+	--size-8xl: 6rem;
+	--size-9xl: 8rem;
+	--size-10xl: 10rem;
 }
 
 * {
@@ -53,9 +70,15 @@ button {
 	color: inherit;
 }
 
+li {
+	list-style: none;
+}
+
 a {
 	color: var(--clr-red);
+	text-decoration: none;
 }
+
 strong {
 	color: var(--clr-indigo);
 }
